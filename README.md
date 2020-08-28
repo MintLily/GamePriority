@@ -10,8 +10,8 @@ Click [this link](https://melonwiki.xyz/) to get started!
 You can edit the value of the mod in your `modprefs.ini`, but for VRChat you can use the [UIExpansionKit](https://github.com/knah/VRCMods) Mod to easily apply settings while you're in-game.
 
 ## Mod Info
-**Mod Version**: v1.0.0
+**Mod Version**: v1.1.0
 
-**MelonLoader Version**: 0.2.0+
+**MelonLoader Version**: 0.2.6+
 
 **Unhollower Version**: N/A
