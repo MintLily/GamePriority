@@ -10,7 +10,7 @@ namespace GamePriority
             public const string Name = "Game Priority Changer";
             public const string Author = "KortyBoi";
             public const string Company = null;
-            public const string Version = "1.0.0";
+            public const string Version = "1.1.0";
             public const string DownloadLink = null;
         }
 
@@ -19,8 +19,8 @@ namespace GamePriority
 
         public override void OnApplicationStart()
         {
-            ModPrefs.RegisterCategory(ModCategory, "Game Priority");
-            ModPrefs.RegisterPrefBool(ModCategory, setGamePriority, false, "Set game priority to High");
+            MelonPrefs.RegisterCategory(ModCategory, "Game Priority");
+            MelonPrefs.RegisterBool(ModCategory, setGamePriority, false, "Set game priority to High");
 
             ApplyChanges();
         }
@@ -32,18 +32,18 @@ namespace GamePriority
 
         private static void ApplyChanges()
         {
-            bool highPriority = ModPrefs.GetBool(ModCategory, setGamePriority);
+            bool highPriority = MelonPrefs.GetBool(ModCategory, setGamePriority);
             if (!highPriority)
             {
                 using (Process p = Process.GetCurrentProcess())
                     p.PriorityClass = ProcessPriorityClass.Normal;
-                MelonModLogger.Log($"Set game's process priority to: Normal");
+                MelonLogger.Log($"Set game's process priority to: Normal");
             }
             else if (highPriority)
             {
                 using (Process p = Process.GetCurrentProcess())
                     p.PriorityClass = ProcessPriorityClass.High;
-                MelonModLogger.Log($"Set game's process priority to: High");
+                MelonLogger.Log($"Set game's process priority to: High");
             }
         }
     }
