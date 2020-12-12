@@ -15,3 +15,16 @@ You can edit the value of the mod in your `modprefs.ini`, but for VRChat you can
 **MelonLoader Version**: 0.2.6+
 
 **Unhollower Version**: N/A
+
+### Tested Games
+- BONEWORKS
+- VRChat
+- Risk of Rain 2
+- NeosVR
+- Arizona Sunshine
+- VTOL VR
+- Ultimate Epic Battle Simulator
+- Totally Accurate Battle Simulator
+- SynthRiders
+- Audica
+- Beat Saber _(Yes, with ML)_
