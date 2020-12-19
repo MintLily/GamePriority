@@ -3,15 +3,15 @@ using System.Diagnostics;
 
 namespace GamePriority
 {
-    public class HighPriority : MelonMod
+    public class GamePriorityChanger : MelonMod
     {
         public static class BuildInfo
         {
-            public const string Name = "Game Priority Changer";
+            public const string Name = "GamePriority";
             public const string Author = "KortyBoi";
             public const string Company = null;
-            public const string Version = "1.1.0";
-            public const string DownloadLink = null;
+            public const string Version = "1.1.1";
+            public const string DownloadLink = "https://github.com/KortyBoi/GamePriority/";
         }
 
         private const string ModCategory = "GamePriority";

@@ -10,9 +10,9 @@ Click [this link](https://melonwiki.xyz/) to get started!
 You can edit the value of the mod in your `modprefs.ini`, but for VRChat you can use the [UIExpansionKit](https://github.com/knah/VRCMods) Mod to easily apply settings while you're in-game.
 
 ## Mod Info
-**Mod Version**: v1.1.0
+**Mod Version**: v1.1.1
 
-**MelonLoader Version**: 0.2.6+
+**MelonLoader Version**: 0.2.7+
 
 **Unhollower Version**: N/A
 
@@ -27,4 +27,4 @@ You can edit the value of the mod in your `modprefs.ini`, but for VRChat you can
 - Totally Accurate Battle Simulator
 - SynthRiders
 - Audica
-- Beat Saber _(Yes, with ML)_
+- Beat Saber _(Yes, with ML on top of IPA)_
