@@ -29,7 +29,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MelonLoader">
-      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\ChilloutVR\MelonLoader\MelonLoader.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\ChilloutVR\MelonLoader\MelonLoader.dll</HintPath>
     </Reference>
     <Reference Include="System" />
   </ItemGroup>

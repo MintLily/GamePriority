@@ -6,11 +6,12 @@ Need to install MelonLoader?<br>
 Click [this link](https://melonwiki.xyz/) to get started!
 
 ## Mod Info
-**Mod Version**: v2.0.0<br>
+**Mod Version**: v2.0.1<br>
 **MelonLoader Version**: 0.5.4+
 
 ### Tested Games
 - BONEWORKS
+- BONELAB
 - VRChat (EAC Prevention)
 - Risk of Rain 2
 - NeosVR
@@ -20,5 +21,5 @@ Click [this link](https://melonwiki.xyz/) to get started!
 - Totally Accurate Battle Simulator
 - SynthRiders
 - Audica
-- Beat Saber _(Yes, with ML on top of IPA)_
+- Beat Saber _(Yes, with ML replacement)_
 - ChilloutVR
